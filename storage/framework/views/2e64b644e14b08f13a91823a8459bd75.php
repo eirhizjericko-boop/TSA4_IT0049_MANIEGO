@@ -1,0 +1,3 @@
+<?php $__env->startSection('content'); ?><section class="page-heading"><p class="eyebrow">TASK MANAGEMENT</p><h1>Add a<br><span>new task.</span></h1></section><form method="POST" action="<?php echo e(route('tasks.store')); ?>" class="task-form"><?php echo csrf_field(); ?> <?php echo $__env->make('tasks._form', ['submitLabel' => 'Create task'], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?></form><?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', ['title' => 'Tasks for Today | New Task'], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\laiza\Documents\Codex\TSA4_IT0049_MANIEGO\resources\views/tasks/create.blade.php ENDPATH**/ ?>
